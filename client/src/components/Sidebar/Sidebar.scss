@@ -1,0 +1,101 @@
+#sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 220px;
+  background-color: #191c25ef;
+  // /* background-color: #1a2036; */  ******(2ND  e:/myfile:/bharu/work/Radiance) ****************************
+  color: white;
+  box-sizing: border-box;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+  box-shadow: 2px 4px 4px grey;
+  z-index: 999;
+}
+
+.sidebar_logo_holder {
+  padding: 10% 5%;
+}
+
+.sidebar_brand {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+}
+
+.sidbar_menu {
+  height: 40px;
+  background-color: #151b2bf1;
+}
+
+.role_area {
+  display: flex;
+  padding: 6px 0 0 10px;
+  align-items: center;
+}
+
+.sidebar_navigation {
+  color: #73778f;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8% 6%;
+}
+
+.sidebar-content {
+  border-inline-start: 4px solid transparent;
+  font-size: 15px;
+}
+
+.logo_holder {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.sidebar-content {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  margin-inline-end: 10px;
+}
+
+.icon-container {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #3c3d44b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.menu-label {
+  color: #96959b;
+  font-size: 1rem;
+}
+
+.logout-user {
+  position: fixed;
+  bottom: 10px;
+  left: 50px;
+}
+.sidebar-content:hover {
+  background-color: #191c25ef;
+
+  .menu-label {
+    color: white;
+  }
+}
+.nav-active {
+  background-color: #191c25ef;
+  border-inline-start: 4px solid blue;
+
+  .menu-label {
+    color: white;
+  }
+}
